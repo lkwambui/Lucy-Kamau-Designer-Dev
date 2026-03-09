@@ -15,7 +15,7 @@ const SOCIALS = [
   { Icon: FiGithub,       href: 'https://github.com/lkwambui',                         label: 'GitHub' },
   { Icon: FiLinkedin,     href: 'https://www.linkedin.com/in/lucy-kamau-87bb75209',  label: 'LinkedIn' },
   { Icon: FiMail,         href: 'mailto:info@logicorex.co.ke',                        label: 'Email' },
-  { Icon: FiExternalLink, href: 'https://www.logicorex.co.ke',                        label: 'LogicoreX' },
+  { Icon: FiExternalLink, href: 'https://logicorex.co.ke',                        label: 'LogicoreX' },
 ]
 
 const scrollTo = (href) => {
@@ -50,7 +50,7 @@ export default function Footer() {
             <p className="text-sm leading-relaxed text-slate-400 max-w-xs">
               Founder & Full Stack Developer at{' '}
               <a
-                href="https://www.logicorex.co.ke"
+                href="https://logicorex.co.ke"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-400 hover:text-primary-300 transition-colors"
@@ -98,9 +98,9 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <a href="https://www.logicorex.co.ke" target="_blank" rel="noopener noreferrer"
+                <a href="https://logicorex.co.ke" target="_blank" rel="noopener noreferrer"
                    className="hover:text-primary-400 transition-colors">
-                  www.logicorex.co.ke
+                  logicorex.co.ke
                 </a>
               </p>
             </div>
@@ -128,7 +128,7 @@ export default function Footer() {
                         justify-between gap-3 text-xs text-slate-500">
           <p>
             © {year}{' '}
-            <a href="https://www.logicorex.co.ke" target="_blank" rel="noopener noreferrer"
+            <a href="https://logicorex.co.ke" target="_blank" rel="noopener noreferrer"
                className="text-slate-400 hover:text-primary-400 transition-colors">
               Lucy Kamau
             </a>{' '}

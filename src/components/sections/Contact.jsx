@@ -36,7 +36,7 @@ const CONTACT_LINKS = [
     icon: FiExternalLink,
     label: 'Company',
     value: 'logicorex.co.ke',
-    href: 'https://www.logicorex.co.ke',
+    href: 'https://logicorex.co.ke',
     color: 'from-violet-500 to-purple-700',
   },
 ]

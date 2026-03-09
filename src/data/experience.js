@@ -7,7 +7,7 @@ export const experiences = [
     id: 1,
     role: 'Founder & Full Stack Developer',
     company: 'LogicoreX',
-    companyUrl: 'https://www.logicorex.co.ke',
+    companyUrl: 'https://logicorex.co.ke',
     period: '2023 — Present',
     type: 'Full-time · Founder',
     current: true,

@@ -6,16 +6,16 @@
 export const projects = [
   {
     id: 1,
-    title: 'Walking Shadow Poetry',
-    tagline: 'A beautiful home for poetry and the written word.',
+    title: 'Vournal',
+    tagline: 'Private digital journaling, your way.',
     description:
-      'A poetry website built for writers and readers to share and discover poems. Features a clean, elegant reading experience, poem listings, author pages, and a content-managed backend for easy publishing.',
+      'A full-featured journaling web app where users can write rich text entries or record video journals. Granular privacy controls let users keep entries private, share selectively, or publish publicly.',
     image: null,
     gradient: 'from-violet-600 to-indigo-600',
-    tech: ['WordPress', 'PHP', 'CSS', 'CMS'],
-    github: '#',
-    live: 'https://walkingshadowpoetry.com',
-    category: ['Full Stack'],
+    tech: ['React', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind CSS'],
+    github: 'https://github.com/lkwambui/vournal',
+    live: '#',
+    category: ['React', 'Node.js', 'MongoDB', 'Full Stack'],
     featured: true,
   },
   {

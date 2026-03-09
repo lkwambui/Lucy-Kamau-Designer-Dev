@@ -101,7 +101,7 @@ export default function Hero() {
             {/* Company badge */}
             <motion.div variants={itemVariants} className="mb-6">
               <a
-                href="https://www.logicorex.co.ke"
+                href="https://logicorex.co.ke"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-slate-300 hover:text-primary-300

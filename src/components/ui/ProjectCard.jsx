@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FiMail, FiExternalLink } from 'react-icons/fi'
+import { FiMail } from 'react-icons/fi'
 import { IoLogoWhatsapp } from 'react-icons/io'
 
 const WHATSAPP_NUM = '254799656264'
@@ -30,8 +30,7 @@ function emailLink(projectTitle) {
  *   index    — card index for staggered animation delay
  */
 export default function ProjectCard({ project, index = 0 }) {
-  const { title, tagline, description, gradient, tech, live } = project
-  const hasLiveUrl = live && live !== '#'
+  const { title, tagline, description, gradient, tech } = project
 
   return (
     <motion.article
@@ -55,26 +54,12 @@ export default function ProjectCard({ project, index = 0 }) {
           </h3>
         </div>
 
-        {/* Hover overlay — Visit Site / WhatsApp & Email demo request */}
+        {/* Hover overlay — WhatsApp & Email demo request */}
         <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center gap-3 px-5
                         opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <p className="text-white text-xs font-semibold uppercase tracking-widest mb-1">
-            {hasLiveUrl ? 'View Project' : 'Request a Demo'}
+            Request a Demo
           </p>
-          {hasLiveUrl && (
-            <a
-              href={live}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`Visit ${title}`}
-              onClick={(e) => e.stopPropagation()}
-              className="flex items-center gap-2 px-5 py-2 rounded-xl w-full justify-center
-                         bg-primary-600 hover:bg-primary-700 text-white text-sm font-semibold
-                         transition-colors shadow-lg"
-            >
-              <FiExternalLink size={15} /> Visit Site
-            </a>
-          )}
           <a
             href={whatsappLink(title)}
             target="_blank"
@@ -119,32 +104,18 @@ export default function ProjectCard({ project, index = 0 }) {
           ))}
         </div>
 
-        {/* Footer — Visit Site or demo request links */}
+        {/* Footer — inline demo request links */}
         <div className="flex items-center gap-3 pt-3 border-t border-slate-100 dark:border-slate-700">
-          {hasLiveUrl ? (
-            <a
-              href={live}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`Visit ${title}`}
-              className="flex items-center gap-1.5 text-xs font-semibold
-                         text-primary-600 dark:text-primary-400
-                         hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
-            >
-              <FiExternalLink size={13} /> Visit Site
-            </a>
-          ) : (
-            <a
-              href={whatsappLink(title)}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`Request demo for ${title} via WhatsApp`}
-              className="flex items-center gap-1.5 text-xs font-semibold
-                         text-[#25D366] hover:text-[#1ebe5d] transition-colors"
-            >
-              <IoLogoWhatsapp size={14} /> WhatsApp Demo
-            </a>
-          )}
+          <a
+            href={whatsappLink(title)}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Request demo for ${title} via WhatsApp`}
+            className="flex items-center gap-1.5 text-xs font-semibold
+                       text-[#25D366] hover:text-[#1ebe5d] transition-colors"
+          >
+            <IoLogoWhatsapp size={14} /> WhatsApp Demo
+          </a>
           <span className="text-slate-300 dark:text-slate-600">·</span>
           <a
             href={emailLink(title)}

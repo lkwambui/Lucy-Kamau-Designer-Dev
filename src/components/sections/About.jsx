@@ -51,7 +51,7 @@ export default function About() {
               <p>
                 I founded{' '}
                 <a
-                  href="https://www.logicorex.co.ke"
+                  href="https://logicorex.co.ke"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-600 dark:text-primary-400 font-semibold hover:underline"
@@ -80,7 +80,7 @@ export default function About() {
             {/* CTA */}
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="https://www.logicorex.co.ke"
+                href="https://logicorex.co.ke"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary group"
