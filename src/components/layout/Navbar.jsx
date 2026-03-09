@@ -98,8 +98,8 @@ export default function Navbar() {
                              text-white font-extrabold text-sm shadow-glow">
               LK
             </span>
-            <span className="font-bold text-base hidden sm:block bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent">
-              Lucy<span className="text-primary-500">.</span>Designer &amp; Dev
+            <span className="font-bold text-base hidden sm:block text-primary-700 dark:text-primary-300">
+              Lucy<span className="text-accent-500">.</span>Designer &amp; Dev
             </span>
           </motion.a>
 
