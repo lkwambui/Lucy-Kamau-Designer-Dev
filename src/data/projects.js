@@ -21,15 +21,15 @@ export const projects = [
   {
     id: 2,
     title: 'Order With Ringo',
-    tagline: 'Seamless food ordering for modern restaurants.',
+    tagline: 'Dropshipping e-commerce store for fashion, electronics & more.',
     description:
-      'Client-facing food ordering platform with a polished UI, real-time cart management, and a streamlined checkout workflow. Built for speed and mobile-first usability.',
+      'A full-featured dropshipping e-commerce platform built with WordPress and WooCommerce. Sells fashion, electronics, beauty products, and home accessories. Features a clean storefront, product catalogue, cart, and secure checkout — fully managed via CMS.',
     image: null,
     gradient: 'from-orange-500 to-rose-500',
-    tech: ['React', 'Tailwind CSS', 'Node.js', 'PostgreSQL', 'Prisma'],
+    tech: ['WordPress', 'WooCommerce', 'PHP', 'CSS', 'CMS'],
     github: 'https://github.com/lkwambui/order-with-ringo',
     live: '#',
-    category: ['React', 'PostgreSQL', 'Full Stack'],
+    category: ['Full Stack'],
     featured: true,
   },
   {
