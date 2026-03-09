@@ -99,7 +99,7 @@ export default function Navbar() {
               LK
             </span>
             <span className="font-bold text-base text-slate-900 dark:text-white hidden sm:block">
-              Lucy<span className="text-primary-500">.</span>dev
+              Lucy<span className="text-primary-500">.</span>Designer &amp; Dev
             </span>
           </motion.a>
 
